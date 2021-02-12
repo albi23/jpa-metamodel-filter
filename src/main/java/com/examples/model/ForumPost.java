@@ -5,10 +5,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
 import java.util.UUID;
 
-/**
- * The class responsible for creating the forum_post table and mapping data to the form
- * of ForumPost objects
- */
 @Entity
 @Table(name = "forum_post")
 public class ForumPost extends BaseEntity {

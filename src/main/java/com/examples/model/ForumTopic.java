@@ -7,10 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * The class responsible for creating the forum_topic table and mapping data to the form
- * of ForumTopic objects
- */
 @Entity
 @Table(name = "forum_topic")
 public class ForumTopic extends BaseEntity {

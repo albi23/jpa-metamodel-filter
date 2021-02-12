@@ -3,10 +3,6 @@ package com.examples.model;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-/**
- * The class responsible for creating the ForumCategory table and mapping data to the form
- * of ForumCategory objects
- */
 @Entity
 @Table(name = "forum_category")
 public class  ForumCategory extends BaseEntity {
